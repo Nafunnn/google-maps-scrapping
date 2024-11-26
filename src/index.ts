@@ -93,9 +93,7 @@ const getData = async (query: string) => {
 
     const tampungHasil: IDetailInfo[] = [];
     // Loop through all the detail url
-    let ea = 0;
     for (const data of detailUrl) {
-      ea++;
       if (!data.detailUrl) continue;
       // Open all the detail url in new tab
       const newTab = await browser.newPage();
