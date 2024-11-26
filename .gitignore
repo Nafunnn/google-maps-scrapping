@@ -1,3 +1,5 @@
 /result_scrapping
 /node_modules
 /result
+/dist
+yarn.lock
