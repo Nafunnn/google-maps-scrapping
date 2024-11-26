@@ -11,4 +11,4 @@ How To Use <br>
 -Open the result folder to see the data scraping results <br>
 <br>
 This program is still in development stage.
-and develop by fjr [https://www.linkedin.com/in/jariz/]
+and collaboration develop by fjr [https://www.linkedin.com/in/jariz/]
