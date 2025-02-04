@@ -1,8 +1,10 @@
 const config = {
-    // this is settings for autoclose browser tab
-    autoclose: true,
-    // this close time work if autoclose is true
-    autocloseTime: 5000,
-}
+  // Enables automatic browser tab closing
+  autoclose: true,
+  // Time (in milliseconds) before the tab closes, applies if autoclose is true
+  autocloseTime: 5000,
+  // Toggles whether to display log results
+  showLogResult: false,
+};
 
-export default config
+export default config;
