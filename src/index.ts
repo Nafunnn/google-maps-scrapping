@@ -10,7 +10,7 @@ const main = async () => {
       query.push(...(await promptUser()));
       console.log(query);
 
-      const choice = await promptChoise({ question: "\n1. Remove Query\n2. Continue\n3. Stop\nType your query to continue\nYour Answer: " });
+      const choice = await promptChoise({ question: "\n1. Remove Query\n2. Continue Input Query\n3. Stop Input Query\nType your query to continue\nYour Answer: " });
       if (choice === "1") query = await deleteQuery(query);
       else if (choice === "2") continue;
       else if (choice === "3") break;
