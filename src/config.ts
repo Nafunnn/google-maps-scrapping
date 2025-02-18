@@ -5,6 +5,8 @@ const config = {
   autocloseTime: 5000,
   // Toggles whether to display log results
   showLogResult: false,
+  // Toggles for headless mode
+  headless: false,
 };
 
 export default config;

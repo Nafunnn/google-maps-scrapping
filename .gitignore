@@ -2,5 +2,5 @@
 /node_modules
 /result
 /dist
-yarn.lock
+*.lock
 package-lock.json

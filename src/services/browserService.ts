@@ -42,7 +42,7 @@ export const autoScroll = async (page: Page) => {
  */
 export const getData = async (query: string) => {
   puppeteerExtra.use(stealthPlugin());
-  const browser = await puppeteerExtra.launch({ headless: false });
+  const browser = await puppeteerExtra.launch({ headless: config.headless });
   const page = await browser.newPage();
 
   try {
